@@ -145,7 +145,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       child: Align(
                         alignment: Alignment.bottomCenter,
                         child: SizedBox(
-                          height: 150,
+                         height: 150,
+                      width: MediaQuery.of(context).size.width,
                           child: Stack(
                             alignment: Alignment.bottomCenter,
                             children: [
